@@ -1,12 +1,32 @@
-.meet-container {
-display: flex;
-justify-content: center;
+.meet {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 5%;
+margin-bottom: 7%;
 }
 .container-for-groups {
     display: flex;
     justify-content: center;
-    margin-left: -15%;
-    margin-right: -15%;
+    margin-bottom: 5%;
+}
+.group-image-left {
+    margin-left: -20%;
+    margin-right: 10%;
+}
+.group-chat-for-everyone {
+  text-align: center;
+}
+.h1 {
+    font-family: "red hat display", sans-serif;
+    font-size: 64px;
+}
+.p {
+    text-align: justify;
+}
+.group-image-right {
+    margin-right: -20%;
+    margin-left: 10%;
 }
 .number-one {
     display: block;
@@ -17,10 +37,32 @@ justify-content: center;
 .container-for-chat{
     display: flex;
     justify-content: center;
-    margin: 50px
+    margin-top: 5%;
+}
+.woman-doing-videocall {
+    margin-left: 50%;
+    margin-right: 2%;
+    border-radius: 10px;
+    width: 150px;
+}
+.old-women-videochatting {
+    margin-right: 2%;
+    border-radius: 10px;
+    width: 150px;
+}
+.man-doing-online-meeting {
+    border-radius: 10px;
+    width: 150px;
+}
+.guy-texting {
+    margin-right: 50%;
+    margin-left: 2%;
+    border-radius: 10px;
+    width: 150px;
 }
 .built-for-morden {
     text-align: center;
+    font-family: "red hat display" monospace;
 }
 .number-two {
     display: block;
@@ -30,14 +72,6 @@ justify-content: center;
     margin-bottom: -7px;
     border-radius: 25px
 }
-.experience-more-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(24, 117, 192);
-    color: white;
-    padding: 60px;
-}
 .left-group-of-people {
     margin-right: 25px;
 }
@@ -45,32 +79,40 @@ justify-content: center;
     margin-left: 25px;
 }
 .what-is-it-button {
-    background-color: rgb(116, 17, 136);
+    background-color: rgb(133, 95, 177);
     border-radius: 15px;
-    padding: 5px;
+    padding: 10px;
     margin-left: 10px;
     color: white;
+    border-width: 0px;
 }
 .first-download-button {
-    background-color: rgb(24, 117, 192);
+    background-color: rgb(77, 150, 168);
     border-radius: 15px;
-    padding: 5px;
+    padding: 10px;
     color: white;
+    border-width: 0px;
 }
 .second-download-button {
-    background-color: rgba(116, 17, 136);
+    background-color: rgba(133, 95, 177);
     border-radius: 25px;
     padding: 10px;
     color: white;
     margin-left: 15%;
+    border-width: 0px;
 }
 .experience-more {
     margin-right: 15%;
     font-family: monospace;
 }
-.circle-icon {
-    align-content: bottom;
-}
-.stay-connected {
-    font-family: monospace;
+.experience-more-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(77, 150, 168);
+    color: white;
+    padding: 60px;
+    font-family: "red hat display", monospace;
+    justify-self: center;
+    border-width: 100%;
 }
